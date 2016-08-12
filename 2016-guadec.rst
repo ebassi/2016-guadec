@@ -379,8 +379,8 @@ Are we in the future, yet?
 
 ----
 
-:data-x: r0
-:data-y: r100
+:data-x: r1000
+:data-y: r0
 :data-z: 0
 
 We're close
@@ -393,7 +393,7 @@ We're close
 ----
 
 :data-z: 4000
-:data-y: r-100
+:data-x: r1000
 
 The future looks suspiciously like now
 ======================================
@@ -407,13 +407,15 @@ The future looks suspiciously like now
 
 ----
 
-:data-x: r2000
+:data-x: r2500
 :data-y: r0
 :data-z: 0
 
 .. image:: images/welcome.jpg
 
 ----
+
+:data-y: r0
 
 Never give up, never surrender
 ==============================
