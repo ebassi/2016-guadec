@@ -61,6 +61,8 @@ Let's go!
 :data-x: r0
 :data-y: r1000
 
+.. image:: images/gtk-1-0.gif
+
 .. note::
    And GTK (without the plus) looked like this.
 
@@ -111,8 +113,8 @@ Drawing on the wire
 :data-x: r0
 :data-y: r1000
 
-Still windows all the way down
-==============================
+Still X11 all the way down
+==========================
 
 .. note::
    It's important to note that up until now GTK was still not working on any
@@ -129,9 +131,9 @@ Still windows all the way down
 .. note::
    Past the crazy end of the millenium — or "Willenium", as it was then
    known — GTK was all grown up. Not only it spun off the type system into
-   its own library, thus getting a '+', GTK developers finally acknowledged
-   that other people were living in sin, and decided to bring them to the
-   light by adding support for their platform.
+   its own library, thus getting a '+' in its name, GTK developers finally
+   acknowledged that other people were living in sin, and decided to bring
+   them to the light by adding support for their platform.
 
 ----
 
@@ -143,7 +145,7 @@ Abstracting means never saying you're SorryInterfaceFactory.singleton().apologiz
 .. note::
    This meant separating the API from the implementation for things like
    drawing contexts, visuals, and other backend-specific constructs.
-   
+
 ----
 
 :data-x: r0
@@ -157,16 +159,23 @@ GDK is the continuation of X11 by other means
 
 ----
 
+:data-x: r0
+:data-y: r1000
+
+.. image:: images/gimp-1-2.jpg
+
+----
+
 :data-x: r2000
-:data-y: r-2000
+:data-y: r-3000
 :data-rotate-z: 90
 
-The world doesn't stop turning just because Linux is about choice
-=================================================================
+The world doesn't stop turning just because you think Linux is about choice
+===========================================================================
 
 .. note::
    In the meantime, though, things were moving in different directions even
-   in the X world. X developers misunderstood how modern GPUs worked and
+   in the X world. X developers misunderstood how modern GPUs work and
    created the RENDER extension to the core protocol, which added Porter-Duff
    compositing operators to pixel buffers, and a library called "Cairo" was
    born. Instead of making the X server know how to render all the possible
@@ -216,7 +225,8 @@ Client-side windows
 
 .. note::
    GTK+ 3.0, the major API bump of 2011. The 2.x API was 9 years old, but
-   the drawing API that GTK+ was stringing along was almost 14.
+   the drawing API that GTK+ was stringing along was, at that point, almost
+   14 years old.
 
 ----
 
@@ -401,6 +411,10 @@ The future looks suspiciously like now
 :data-y: r0
 :data-z: 0
 
+.. image:: images/welcome.jpg
+
+----
+
 Never give up, never surrender
 ==============================
 
@@ -415,3 +429,9 @@ Never give up, never surrender
 
 Thank you!
 ==========
+
+----
+
+ * CC by-sa 4.0
+ * https://github.com/ebassi/2016-guadec
+ * https://www.bassi.io
