@@ -39,7 +39,7 @@ GTK+ has a long history
 
 ----
 
-Let's go!
+Let's explore!
 =========
 
 .. note::
@@ -53,8 +53,8 @@ Let's go!
 .. note::
    We are in 1997. The first MP3 was ripped just the previous year. Windows 95
    was replacing all Windows 3.1 installations. IBM's OS/2 was dying. Apple was
-   a small company clinging to the glories past. The browser wars were starting
-   to get serious. The apex of the X11 GUI toolkits was Motif.
+   a small company clinging to glories past. The browser wars were starting
+   to get serious. The apex of the X11 GUI toolkits was Motif…
    
 ----
 
@@ -64,7 +64,7 @@ Let's go!
 .. image:: images/gtk-1-0.gif
 
 .. note::
-   And GTK (without the plus) looked like this.
+   … And GTK (without the plus) looked like this.
 
 ----
 
@@ -75,12 +75,13 @@ It's windows all the way down
 =============================
 
 .. note::
-   How was that gorgeous blob of pixels put on the screen? At that time, each
-   GTK widget was backed by an X11 window for the output. Each window had
+   How was that gorgeous blob of gray pixels put on the screen? At that time,
+   each GTK widget was backed by an X11 window for the output. Each window had
    various X11 parafernalia: a colormap, where colors would be allocated on
    the server; a visual, representing the number and depth of color channels
    available to the application; and a graphics context, which would provide
-   a set of operations to be performed by the client on the server.
+   a set of operations to be performed by the client on the server, like stipple
+   patterns.
 
 ----
 
@@ -105,8 +106,8 @@ Drawing on the wire
 .. note::
    Let's jump in time a little bit, to the 1.2 days. It was the last days of
    the last millenium, and at that point GTK had grown support for themes,
-   because nothing says "party like 1999" like themes. Underneath it all,
-   though, GTK was still pushing commands to the X server over the wire.
+   because nothing says "party like 1999" like green neon themes. Underneath
+   it all, though, GTK was still pushing commands to the X server over the wire.
 
 ----
 
@@ -117,9 +118,8 @@ Still X11 all the way down
 ==========================
 
 .. note::
-   It's important to note that up until now GTK was still not working on any
-   other windowing systems outside of X11, a state of grace from which we
-   fell later on.
+   It's important to note that GTK was still not working on any other windowing
+   systems outside of X11, a state of grace from which we would soon fall out of.
 
 ----
 
@@ -129,11 +129,11 @@ Still X11 all the way down
 **2002**: GTK+ 2.0
 
 .. note::
-   Past the crazy end of the millenium — or "Willenium", as it was then
-   known — GTK was all grown up. Not only it spun off the type system into
-   its own library, thus getting a '+' in its name, GTK developers finally
-   acknowledged that other people were living in sin, and decided to bring
-   them to the light by adding support for their platform.
+   Past the crazy end of the millenium — or "Willennium", as it was then
+   known; kids, ask your parents — GTK was all grown up. Not only it spun off
+   the type system into its own library, thus getting a '+' in its name, GTK
+   developers finally acknowledged that other people were living in sin, and
+   decided to bring them to the light by adding support for their platform.
 
 ----
 
@@ -175,15 +175,16 @@ The world doesn't stop turning just because you think Linux is about choice
 
 .. note::
    In the meantime, though, things were moving in different directions even
-   in the X world. X developers misunderstood how modern GPUs work and
-   created the RENDER extension to the core protocol, which added Porter-Duff
-   compositing operators to pixel buffers, and a library called "Cairo" was
-   born. Instead of making the X server know how to render all the possible
-   font types on this planet, or have applications send the whole font vector
-   data over the wire thus requiring Gb/s connections to render "Hello world"
-   in Comic Sans, toolkits started using client side buffers to shape text.
-   Once the forbidden fruit of doing things in a sensible way had been tasted,
-   the end of the Network Transparent Age came quickly.
+   in the X world. X developers, though a misunderstanding of how modern GPUs
+   worked, created the RENDER extension to the core protocol, which added
+   Porter-Duff compositing operators to pixel buffers, and a library called
+   "Cairo" exploiting them was created. Instead of making the X server know
+   how to render all the possible font types on this planet, or have
+   applications send the whole font vector data over the wire thus requiring
+   Gb/s connections to render "Hello world" in Comic Sans, toolkits started
+   using client side buffers to shape text. Once the forbidden fruit of doing
+   things in a sensible way had been tasted, the end of the Network Transparent
+   Age came quickly.
 
 ----
 
@@ -221,7 +222,7 @@ Client-side windows
 :data-x: r1000
 :data-y: r0
 
-**2011**: GTK+ 3.0
+**2011**: GTK+ 3.0 → …
 
 .. note::
    GTK+ 3.0, the major API bump of 2011. The 2.x API was 9 years old, but
