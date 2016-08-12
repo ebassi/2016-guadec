@@ -40,7 +40,7 @@ GTK+ has a long history
 ----
 
 Let's explore!
-=========
+==============
 
 .. note::
    So: sit back, relax, and let's crank up the time machine to go back to the
