@@ -230,8 +230,8 @@ Client-side windows
 
 ----
 
-:data-x: r0
-:data-y: r1000
+:data-x: r2000
+:data-y: r0
 
 • OpenGL
 • transparent windows
@@ -244,8 +244,8 @@ Client-side windows
 
 ----
 
-:data-x: r2000
-:data-y: r-1000
+:data-x: r-2000
+:data-y: r-2000
 
 Except…
 =======
@@ -313,6 +313,9 @@ This is why we can't have nice things
 Aim for the stars
 =================
 
+(Avoid hitting London, please)
+------------------------------
+
 .. note::
    The end goal is to have access to the power of graphics hardware while
    still getting good results for rendering complex things like fonts and
@@ -379,7 +382,7 @@ Are we in the future, yet?
 
 ----
 
-:data-x: r1000
+:data-x: r800
 :data-y: r0
 :data-z: 0
 
@@ -393,7 +396,7 @@ We're close
 ----
 
 :data-z: 4000
-:data-x: r1000
+:data-x: r800
 
 The future looks suspiciously like now
 ======================================
@@ -407,7 +410,7 @@ The future looks suspiciously like now
 
 ----
 
-:data-x: r2500
+:data-x: r2000
 :data-y: r0
 :data-z: 0
 
