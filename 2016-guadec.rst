@@ -20,10 +20,33 @@ GUADEC 2016 | Karlsruhe | Emmanuele Bassi <ebassi@gnome.org>
 Welcome!
 ========
 
+----
+
+.. image:: images/stefon.png
+
+This talk has **everything**
+----------------------------
+
 .. note::
-   This talk has two goals, one overt and one slightly covert. The former is
-   to present you a history of the rendering in GTK+ over the years. The
-   latter will become apparent at the end of the presentation.
+   This talk will make you laugh, cry, think, and warm your heart.
+
+   More importantly, though, this talk has two goals, one overt and one
+   slightly covert. The former is to present you a history of the rendering
+   in GTK+ over the years. The latter will become apparent at the end of the
+   presentation.
+
+----
+
+Except ponies.
+
+You will find no ponies, here
+
+----
+
+.. image:: images/rey.jpg
+
+But you'll get a kitten
+-----------------------
 
 ----
 
@@ -51,25 +74,63 @@ Let's explore!
 **1997**: GTK 0.x → 1.x
 
 .. note::
-   We are in 1997. The first MP3 was ripped just the previous year. Windows 95
-   was replacing all Windows 3.1 installations. IBM's OS/2 was dying. Apple was
-   a small company clinging to glories past. The browser wars were starting
-   to get serious. The apex of the X11 GUI toolkits was Motif…
+   We are in 1997.
    
 ----
 
 :data-x: r0
 :data-y: r1000
 
-.. image:: images/gtk-1-0.gif
+.. image:: images/mp3.jpg
 
 .. note::
-   … And GTK (without the plus) looked like this.
+   The first MP3 was ripped just the previous year.
 
 ----
 
-:data-x: r0
-:data-y: r1000
+.. image:: images/win95.jpg
+
+.. note::
+   Windows 95 was replacing all Windows 3.1 installations.
+
+----
+
+.. image:: images/os2.png
+
+.. note::
+   IBM's OS/2 was dying.
+
+----
+
+.. image:: images/macos8.png
+
+.. note::
+   Apple was a small company still clinging to glories past.
+   
+----
+
+.. image:: images/ie3.png
+
+.. image:: images/netscape3.gif
+
+.. note::
+   The browser wars were starting to get serious.
+   
+----
+
+.. image:: images/motif.png
+
+.. note::
+   The apex of the X11 GUI toolkits was Motif.
+
+----
+
+.. image:: images/gtk-1-0.gif
+
+.. note::
+   And GTK (without the plus) looked like this.
+
+----
 
 It's windows all the way down
 =============================
@@ -85,9 +146,6 @@ It's windows all the way down
 
 ----
 
-:data-x: r0
-:data-y: r1000
-
 Drawing on the wire
 ===================
 
@@ -99,32 +157,39 @@ Drawing on the wire
 ----
 
 :data-x: r2000
-:data-y: r-3000
+:data-y: r-9000
 
 **1999**: GTK 1.2
 
 .. note::
    Let's jump in time a little bit, to the 1.2 days. It was the last days of
-   the last millenium, and at that point GTK had grown support for themes,
-   because nothing says "party like 1999" like green neon themes. Underneath
-   it all, though, GTK was still pushing commands to the X server over the wire.
+   the last millenium, and at that point GTK had grown support for themes…
 
 ----
 
 :data-x: r0
 :data-y: r1000
 
+.. image:: images/gtk-theme.jpg
+
+.. note::
+   … Because nothing says "party like 1999" like green neon themes.
+
+----
+
 Still X11 all the way down
 ==========================
 
 .. note::
-   It's important to note that GTK was still not working on any other windowing
-   systems outside of X11, a state of grace from which we would soon fall out of.
+   Underneath it all, though, GTK was still pushing commands to the X server over
+   the wire. It's important to note that GTK was still not working on any other
+   windowing systems outside of X11, a state of grace from which we would soon fall
+   out of.
 
 ----
 
 :data-x: r2000
-:data-y: r-1000
+:data-y: r-2000
 
 **2002**: GTK+ 2.0
 
@@ -148,9 +213,6 @@ Abstracting means never saying you're SorryInterfaceFactory.singleton().apologiz
 
 ----
 
-:data-x: r0
-:data-y: r1000
-
 GDK is the continuation of X11 by other means
 =============================================
 
@@ -158,9 +220,6 @@ GDK is the continuation of X11 by other means
    Thus began the grand work of reimplementing the X11 API on other platforms.
 
 ----
-
-:data-x: r0
-:data-y: r1000
 
 .. image:: images/gimp-1-2.jpg
 
@@ -203,9 +262,6 @@ Cairo
    to be placed on the chopping block in the next major API bump.
 
 ----
-
-:data-x: r1000
-:data-y: r0
 
 Client-side windows
 ===================
@@ -302,12 +358,13 @@ OpenGL is actually getting better
 
 ----
 
-This is why we can't have nice things
-=====================================
+This is why we **can** have nice things
+=======================================
 
 .. note::
    We do have a way out: we can use GL for what it's good, and rely on
-   Cairo for pretty rasterizations that render 
+   Cairo for pretty rasterizations that create the gradients that Lapo
+   seem to use pretty much everywhere in Adwaita.
 
 ----
 
@@ -373,7 +430,7 @@ Compositing and rendering CSS primitives
 
 ----
 
-:data-z: -4000
+:data-z: -3000
 
 Are we in the future, yet?
 ==========================
@@ -396,7 +453,7 @@ We're close
 
 ----
 
-:data-z: 4000
+:data-z: 3000
 :data-x: r800
 
 The future looks suspiciously like now
