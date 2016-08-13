@@ -46,11 +46,21 @@ div#title-slide h3 a {
     text-decoration: none;
 }
 
+div#sorry h1 {
+    font-size: 1.1em;
+}
+
 h2, h3, h4 {
     font-weight: normal;
     margin-bottom: 0.3em;
     margin-top: 0.3em;
 }
+
+h2 { font-size: .8em; }
+
+h3 { font-size: .7em; }
+
+h4 { font-size: .6em; }
 
 tt {
     font-size: 125;

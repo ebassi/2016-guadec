@@ -202,10 +202,14 @@ Still X11 all the way down
 
 ----
 
+:id: sorry
 :data-x: r0
 :data-y: r1000
 
-Abstracting means never saying you're SorryInterfaceFactory.singleton().apologize()
+Abstracting means never saying you're
+-------------------------------------
+ExcuseSingletonInterfaceFactory().Sorry().Apologize()
+-----------------------------------------------------
 
 .. note::
    This meant separating the API from the implementation for things like
