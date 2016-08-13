@@ -490,15 +490,16 @@ Never give up, never surrender
 
 ----
 
+.. image:: images/endless.png
+
+----
+
 Thank you!
 ==========
 
 ----
 
-.. image:: images/endless.png
-
-----
-
- * CC by-sa 4.0
- * https://github.com/ebassi/2016-guadec
- * https://www.bassi.io
+ * License: CC by-sa 4.0
+ * Source: https://github.com/ebassi/2016-guadec
+ * Articles: https://www.bassi.io/tag/gsk-demystified/
+ * Job: https://endlessm.com
